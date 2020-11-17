@@ -10,14 +10,14 @@ b = 1
 count = 0
 
 # check if the number of terms is valid
-if nterms <= 0:
+if nterm <= 0:
    print("Please enter a positive integer")
-elif nterms == 1:
-   print("Fibonacci sequence upto",nterms,":")
+elif nterm == 1:
+   print("Fibonacci sequence upto",nterm,":")
    print(a)
 else:
-   print("Fibonacci sequence upto",nterms,":")
-   while count < nterms:
+   print("Fibonacci sequence upto",nterm,":")
+   while count < nterm:
        print(a,end=' , ')
        nth = a + b
        # update values
