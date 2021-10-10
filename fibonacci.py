@@ -7,20 +7,20 @@ nterms = 100
 # first two terms
 a = 0
 b = 1
-count = 0
+cnt = 0
 
 # check if the number of terms is valid
-if nterms <= 0:
+if nterm <= 0:
    print("Please enter a positive integer")
-elif nterms == 1:
-   print("Fibonacci sequence upto",nterms,":")
+elif nterm == 1:
+   print("Fibonacci Sequence upto",nterm,":")
    print(a)
 else:
-   print("Fibonacci sequence upto",nterms,":")
-   while count < nterms:
+   print("Fibonacci Sequence upto",nterm,":")
+   while cnt < nterm:
        print(a,end=' , ')
        nth = a + b
        # update values
        a = b
        b = nth
-count += 1
+cnt += 1
