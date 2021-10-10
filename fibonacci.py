@@ -13,10 +13,10 @@ count = 0
 if nterm <= 0:
    print("Please enter a positive integer")
 elif nterm == 1:
-   print("Fibonacci sequence upto",nterm,":")
+   print("Fibonacci Sequence upto",nterm,":")
    print(a)
 else:
-   print("Fibonacci sequence upto",nterm,":")
+   print("Fibonacci Sequence upto",nterm,":")
    while count < nterm:
        print(a,end=' , ')
        nth = a + b
