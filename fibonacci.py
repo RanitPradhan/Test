@@ -7,7 +7,7 @@ nterms = 100
 # first two terms
 a = 0
 b = 1
-count = 0
+cnt = 0
 
 # check if the number of terms is valid
 if nterm <= 0:
@@ -17,10 +17,10 @@ elif nterm == 1:
    print(a)
 else:
    print("Fibonacci Sequence upto",nterm,":")
-   while count < nterm:
+   while cnt < nterm:
        print(a,end=' , ')
        nth = a + b
        # update values
        a = b
        b = nth
-count += 1
+cnt += 1
